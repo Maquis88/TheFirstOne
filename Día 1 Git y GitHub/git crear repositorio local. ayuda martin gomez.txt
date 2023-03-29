@@ -1,0 +1,36 @@
+git crear repositorio local:
+
+Pasos :
+1- ir a carpeta del proyecto y con click derecho abrir git bush
+
+2- comandos:
+
+- GIT INIT (Este comando crea un nuevo repositorio vacío en un directorio existente.)
+
+- GIT REMOTE ADD rep1 https://github.com/Tinchox1/Rep.git (añadimos una vinculacion de un repositorio remoto..."rep1 seria el alias para llamarlo")
+
+- GIT REMOTE -V (corrobora si se vinvulo bien)
+
+- GIT CONFIG --GLOBAL USER.NAME "TINCHO" (establece el alias de usuario del git local)
+
+- GIT CONFIG --GLOBAL USER.EMAIL "TINCHOX1991@GMAIL.COM"
+
+
+-----------------------------------
+
+enviar cambios de repositorio local al remoto :
+
+- GIT STATUS (muestra el estado del repositorio)
+- GIT ADD . (adhiere cambios del repositorio)
+- GIT COMMIT -M "primer commit" (rotulo del commit)
+- GIT PUSH rep1 master (envia los cambios al repositorio remoto bajo la rama master)
+------------------------------
+clonar un repositorio (trae los cambios del repositorio remoto al local)
+- GIT INIT 
+- GIT REMOTE  ADD rep1 https://github.com/Tinchox91/Rep.git
+- GIT REMOTE -V 
+- GIT PULL rep1 master (trayendo del repositorio remoto todo)
+- GIT FETCH (muestra la informacion de las ramas)
+
+
+
